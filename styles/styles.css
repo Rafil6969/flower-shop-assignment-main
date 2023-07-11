@@ -4,7 +4,7 @@ body {
 }
 
 /* header styles */
-header {
+.header {
     width: 1920px;
     height: 850px;
     flex-shrink: 0;
@@ -38,7 +38,7 @@ header {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    padding: 0px 0px 0px 240px ;
+    padding: 0px 0px 0px 240px;
     margin-top: 0px;
 }
 
@@ -54,17 +54,84 @@ header {
     background: #E55473;
     margin-left: 240px;
 }
-.nav-img{
+
+.nav-img {
     width: 635px;
-height: 800px;
-/* flex-shrink: 0; */
-/* display: block; */
-/* margin-bottom: 0px; */
-padding: 50px 240px 0px 97px;
+    height: 800px;
+    /* flex-shrink: 0; */
+    /* display: block; */
+    /* margin-bottom: 0px; */
+    padding: 50px 240px 0px 97px;
 }
+
 /* main section styles */
-.main{
+.main {
     width: 1920px;
-height: 4867px;
-background-color: #fff;
+    height: 4867px;
+    background-color: #fff;
+}
+
+.main-header {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 10px 243px 10px 243px;
+
+}
+
+.main-para {
+    text-align: center;
+}
+
+.main-description {
+    /* width: 600px; */
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* text-align: center; */
+    /* margin-left: 63px; */
+    /* margin-right: 63px; */
+    /* display: block; */
+    /* padding: 10px 243px 20px 243px; */
+}
+
+.images {
+    margin: 30px;
+}
+
+.img-1 {
+    width: 310px;
+    height: 428px;
+    flex-shrink: 0;
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+}
+
+.img-2 {
+    width: 370px;
+    height: 370px;
+    flex-shrink: 0;
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+
+}
+
+.img-3 {
+    width: 314px;
+    height: 471px;
+    flex-shrink: 0;
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
 }
